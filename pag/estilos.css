@@ -137,10 +137,11 @@ header #logo img
 	margin-right: 0.5em;
 	padding-right: 0.5em;
 	width: 52px;
+	-webkit-transition:.5s;
 
 }
 header #logo img:hover{
-	-webkit-transition:.5s;
+	
 	-webkit-transform:rotate(365deg);
 
 }
@@ -195,7 +196,7 @@ nav ul li a
 	color: white;
 	display: block;
 	padding: 0.5em;
-	-webkit-transition:.3s;
+	transition:.3s;
 
 }
 aside
